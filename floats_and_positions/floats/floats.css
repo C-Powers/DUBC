@@ -1,0 +1,48 @@
+.container {
+  background-color:
+  height: 500px;
+}
+
+.just-boxes {
+  background-color: pink;
+  border: 2px solid green;
+  font-size: 25px;
+  height: 150px;
+  width: 150px;
+
+}
+
+.clear-fix:before,
+.clear-fix:after {
+  content: "";
+  display: table;
+}
+
+.clear-fix:after {
+  clear: both;
+}
+
+.clear-fix {
+  clear: both;
+  *zoom: 1;
+}
+
+#first {
+  float: left;
+}
+
+#second {
+  float: left;
+}
+
+#third {
+  float: right;
+}
+
+#fourth {
+  float: right;
+}
+
+#fifth {
+  float: left;
+}

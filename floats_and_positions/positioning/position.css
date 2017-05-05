@@ -1,0 +1,33 @@
+.container {
+  background-color: grey;
+  margin-left: 100px;
+  height: 5000px;
+  width: 500px;
+}
+
+.just-boxes {
+  background-color: pink;
+  border: 2px solid green;
+  font-size: 25px;
+  height: 150px;
+  width: 150px;
+}
+
+#relative {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+#fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
