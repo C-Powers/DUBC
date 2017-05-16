@@ -1,0 +1,11 @@
+/*input.form-control {
+    width: 200px;
+}
+
+.form-group {
+    text-align: center;
+}*/
+
+form {
+    display: inline-block;
+}
